@@ -6,9 +6,12 @@
   "browser": "dist/my-progress-bar-stencil-tutorial.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "build": "stencil build"
+    "build": "stencil build",
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
@@ -22,9 +25,11 @@
   },
   "homepage": "https://github.com/aaronmorris/my-progress-bar-stencil-tutorial#readme",
   "dependencies": {
-    "@stencil/core": "^0.9.7"
+    "@stencil/core": "^0.9.7",
+    "@stencil/sass": "0.0.5"
   },
   "devDependencies": {
-    "@stencil/utils": "0.0.4"
+    "@stencil/utils": "0.0.4",
+    "serve": "^8.2.0"
   }
 }

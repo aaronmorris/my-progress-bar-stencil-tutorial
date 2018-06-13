@@ -1,0 +1,5 @@
+@charset "UTF-8";
+:host {
+  /* The :host is part of the Shadow DOM and makes sure that the styling of h1 won’t leak to the outside. */ }
+  :host h1 {
+    color: red; }

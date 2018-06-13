@@ -1,0 +1,1 @@
+// MyProgressBarStencilTutorial: CommonJS Main
