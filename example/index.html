@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Demo</title>
-    <script src="../dist/my-progress-bar-stencil-tutorial.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Demo</title>
+	<script src="../dist/my-progress-bar-stencil-tutorial.js"></script>
 </head>
 
 <body>
-    <my-progress-bar></my-progress-bar>
+	<my-progress-bar value="40"></my-progress-bar>
+	<my-progress-bar class="styled" value="2" max="5"></my-progress-bar>
+	<style>
+		my-progress-bar.styled {
+			--progress-color: red;
+		}
+	</style>
 </body>
 </html>

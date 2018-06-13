@@ -12,6 +12,21 @@
           ]
         }
       },
+      "props": [
+        {
+          "name": "max",
+          "type": "Number",
+          "attr": "max"
+        },
+        {
+          "name": "value",
+          "type": "Number",
+          "attr": "value"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
       "shadow": true
     }
   ],

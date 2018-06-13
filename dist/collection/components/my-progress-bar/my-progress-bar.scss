@@ -1,6 +1,21 @@
 :host {
-    /* The :host is part of the Shadow DOM and makes sure that the styling of h1 won’t leak to the outside. */
-    h1 {
-        color: red;
-    }
+	/* The :host is part of the Shadow DOM and makes sure that the styling of h1 won’t leak to the outside. */
+	.progress-container {
+		display: flex;
+		/*In this code we use var(--some-value, fallback) a few times. 
+		This allows us to read the value of a CSS custom property and specify a fallback in case it doesn’t exist.*/
+		height: var(--progress-height, 20px);
+		background: var(--progress-background, lightgrey);
+		overflow: hidden;
+		border-radius: 20px;
+
+		.progress-bar {
+			background: var(--progress-color, lightblue);
+			width: calc(var(--current-value, 0) * 100% / var(--max-value, 100));
+		}
+
+		.progress-bar-reminder {
+			flex: 1;
+		}
+	}
 }

@@ -31,7 +31,8 @@ declare global {
 
   namespace StencilComponents {
     interface MyProgressBar {
-
+      'max': number;
+      'value': number;
     }
   }
 
@@ -54,7 +55,8 @@ declare global {
   }
   namespace JSXElements {
     export interface MyProgressBarAttributes extends HTMLAttributes {
-
+      'max'?: number;
+      'value'?: number;
     }
   }
 }
