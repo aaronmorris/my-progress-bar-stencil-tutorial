@@ -1,0 +1,30 @@
+{
+  "name": "my-progress-bar-stencil-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/my-progress-bar-stencil-tutorial.js",
+  "browser": "dist/my-progress-bar-stencil-tutorial.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": ["dist/"],
+  "scripts": {
+    "build": "stencil build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronmorris/my-progress-bar-stencil-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronmorris/my-progress-bar-stencil-tutorial/issues"
+  },
+  "homepage": "https://github.com/aaronmorris/my-progress-bar-stencil-tutorial#readme",
+  "dependencies": {
+    "@stencil/core": "^0.9.7"
+  },
+  "devDependencies": {
+    "@stencil/utils": "0.0.4"
+  }
+}
