@@ -4,7 +4,8 @@ Following tutorial found here:<br />
 https://www.twilio.com/blog/2018/02/creating-and-publishing-web-components-with-stencil.html<br />
 <br />
 If you get the following error when trying to build:
-```style error
+```
+style error
 Style "src/components/my-progress-bar/my-progress-bar.scss" is a Sass file, however the "sass"
 plugin has not been installed. Please install the "@stencil/sass" plugin and add it to
 "config.plugins" within the project's stencil.config.js file. For more info please see:
