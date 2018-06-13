@@ -12,7 +12,8 @@ https://www.npmjs.com/package/@stencil/sass
 ```
 
 Run the following commands in your terminal window
-`npm install @stencil/sass'
+```npm install @stencil/sass
+```
 
 Then in the stecnil.config.js file:
 Add the following line to the top: `const sass = require('@stencil/sass');`<br />
